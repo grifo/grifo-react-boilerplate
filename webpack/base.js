@@ -9,7 +9,7 @@ import postcssDiscardUnused from 'postcss-discard-unused';
 
 const config = {
     entry: [
-        path.resolve(__dirname, '../', 'src', 'scripts', 'index'),
+        path.resolve(__dirname, '../', 'src', 'index'),
         path.resolve(__dirname, '../', 'src', 'styles', 'index.sass'),
     ],
 
