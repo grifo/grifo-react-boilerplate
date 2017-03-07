@@ -38,7 +38,7 @@ const config = {
                 exclude: /node_modules/,
                 loader: ExtractTextPlugin.extract(
                     'style-loader',
-                    ['css-loader', 'postcss-loader', 'sass-loader', 'import-glob-loader']
+                    ['css-loader', 'postcss-loader', 'sass-loader', 'import-glob-loader'],
                 ),
             },
             {
